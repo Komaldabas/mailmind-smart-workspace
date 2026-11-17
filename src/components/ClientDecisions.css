@@ -1,0 +1,68 @@
+.decisions-page {
+    padding: 28px;
+}
+
+.decisions-header h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    color: #172b4d;
+}
+
+.decisions-header p {
+    color: #718096;
+    margin-bottom: 28px;
+}
+
+.decisions-list {
+    display: grid;
+    gap: 20px;
+}
+
+.decision-card {
+    background: white;
+    padding: 26px;
+    border: 1px solid #e5eaf3;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(30, 60, 110, 0.06);
+}
+
+.decision-tag {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #fff1e6;
+    color: #c66a24;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.decision-card h3 {
+    margin: 18px 0 12px;
+    font-size: 20px;
+}
+
+.decision-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.decision-actions button {
+    padding: 11px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.decision-actions button:hover {
+    background: #1d4ed8;
+}
+
+.decision-status {
+    margin-top: 18px;
+    font-weight: 600;
+    color: #475569;
+}
